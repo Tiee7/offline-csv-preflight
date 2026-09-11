@@ -1,0 +1,60 @@
+{
+  "header": [
+    "id",
+    "status",
+    "note"
+  ],
+  "key_column": "id",
+  "required_columns": [
+    "id",
+    "status"
+  ],
+  "rows_seen": 7,
+  "rows_with_issues": 5,
+  "issue_count": 4,
+  "issues": [
+    {
+      "code": "missing_value",
+      "field": "status",
+      "records": [
+        4
+      ],
+      "line_ends": [
+        4
+      ]
+    },
+    {
+      "code": "column_count",
+      "expected": 3,
+      "actual": 4,
+      "records": [
+        6
+      ],
+      "line_ends": [
+        7
+      ]
+    },
+    {
+      "code": "missing_value",
+      "field": "id",
+      "records": [
+        7
+      ],
+      "line_ends": [
+        8
+      ]
+    },
+    {
+      "code": "duplicate_key",
+      "field": "id",
+      "records": [
+        2,
+        3
+      ],
+      "line_ends": [
+        2,
+        3
+      ]
+    }
+  ]
+}
