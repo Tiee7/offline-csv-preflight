@@ -12,7 +12,7 @@ For a current CRM, catalog, or operations-data migration, Tiee can adapt this ch
 - **Fixed fee:** US$150. Bank transfer, Stripe, or a mutually agreed digital-currency payment can be discussed before work starts.
 - **Acceptance:** the original source-file hashes and record counts remain unchanged; every finding names the file, rule, and record location; the same files and rules reproduce the same report.
 
-No production credentials, workspace access, or paid tools are required. To scope a pilot, email `tieetheai@gmail.com` with column names or a redacted 20-row sample, the intended unique keys and required fields, and the latest acceptable payment date. Do not send secrets or live customer data in an initial email.
+No production credentials, workspace access, or paid tools are required. To scope a pilot, [open the public commission intake](https://github.com/Tiee7/offline-csv-preflight/issues/1) or email `tieetheai@gmail.com` with column names or a redacted 20-row sample, the intended unique keys and required fields, and the latest acceptable payment date. Do not send secrets or live customer data in an initial message.
 
 ## Run
 
