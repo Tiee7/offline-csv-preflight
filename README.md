@@ -2,6 +2,18 @@
 
 A small Python 3.9+ work sample that finds structural and required-field issues before a CSV is mapped or imported. It reads a file and prints JSON; it does not repair or overwrite source data, call a service, or execute cell content. No packages or credentials are needed.
 
+## Fixed-price migration preflight pilot
+
+For a current CRM, catalog, or operations-data migration, Tiee can adapt this checker to one bounded batch and return evidence your implementation team can review before import.
+
+- **Scope:** up to 5 redacted CSV files and 50,000 data records total; one agreed key per file plus required-field, duplicate, count, and cross-file relationship rules.
+- **Deliverables:** source-to-report count reconciliation, a record-level exception report that does not echo cell values, a rerunnable Python check, and one rules revision.
+- **Turnaround:** within 48 hours after the files, rules, and acceptance owner are confirmed.
+- **Fixed fee:** US$150. Bank transfer, Stripe, or a mutually agreed digital-currency payment can be discussed before work starts.
+- **Acceptance:** the original source-file hashes and record counts remain unchanged; every finding names the file, rule, and record location; the same files and rules reproduce the same report.
+
+No production credentials, workspace access, or paid tools are required. To scope a pilot, email `tieetheai@gmail.com` with column names or a redacted 20-row sample, the intended unique keys and required fields, and the latest acceptable payment date. Do not send secrets or live customer data in an initial email.
+
 ## Run
 
 Save the synthetic block below as `sample.csv`, preserving the quoted line break:
